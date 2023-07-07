@@ -8,31 +8,41 @@ ul{
 }
 body{
     font-family: "Oxanium", cursive;
-    background: rgb(0,0,1);
-    background: linear-gradient(180deg, rgba(0,0,1,1) 21%, rgba(48,1,1,1) 56%, rgba(170,14,14,1) 100%);
+    background-color: black;
     color: #fff;
+}
+body::before{
+    content:"";
+    background-image: url(./src/imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .cabecalho{
     display: flex;
     justify-content: center;
-    background-color: black;
+    
 }
 .selecao-de-personagens{
-    background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 152px);
+    min-height: calc(100vh - 107px);
     gap:30px; ;
     
 }
 .selecao-de-personagens .lista-de-personagens{
-    background-color: yellowgreen;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+   
+    
 }
 .selecao-de-personagens .personagens{
     display: flex;
@@ -40,12 +50,14 @@ body{
     align-items: center;
     max-width: 700px;
     gap: 25px;
+    min-height: 450px;
 }
 .selecao-de-personagens .personagens .titulo{
     font-weight: 700;
     font-size: 25px;
+    text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom:2px solid #fff ;
+    border-bottom:1px solid #fff ;
     width: 100%;
     text-align: center;
 }
@@ -53,15 +65,17 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    
 }
-.lista-de-personagens .personagem.selecionados{
+.lista-de-personagens .personagem.selecionado{
     box-shadow: 0px 0px 24px 5px #ffffff4d;
 
 }
-.personagem-selecionado{
+.personagem-selecionado {
     text-align: center;
-    max-height: 530px;
+    max-height: 600px;
     gap: 10px;
+ 
 
 }
 .personagem-selecionado .personagem-grande{
@@ -69,11 +83,15 @@ body{
     height: 430px;
     border-radius: 10px;
 }
-.personagem.selecionados .nome-personagem{
-    border-bottom: 2px solid #fff;
+.personagem-selecionado .nome-personagem{
+    border-bottom: 1px solid #fff;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
-.personagem-selecionados .descricao-personagem{
+.personagem-selecionado .descricao-personagem{
     font-size: 16px;
     line-height:22px;
+    text-align: center;
+    margin-top: 10px;
+    width: 390px ;
 }
