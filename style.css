@@ -1,1 +1,79 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Oxanium", cursive;
+    background: rgb(0,0,1);
+    background: linear-gradient(180deg, rgba(0,0,1,1) 21%, rgba(48,1,1,1) 56%, rgba(170,14,14,1) 100%);
+    color: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.selecao-de-personagens{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 152px);
+    gap:30px; ;
+    
+}
+.selecao-de-personagens .lista-de-personagens{
+    background-color: yellowgreen;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.selecao-de-personagens .personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    gap: 25px;
+}
+.selecao-de-personagens .personagens .titulo{
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom:2px solid #fff ;
+    width: 100%;
+    text-align: center;
+}
+.lista-de-personagens .personagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.lista-de-personagens .personagem.selecionados{
+    box-shadow: 0px 0px 24px 5px #ffffff4d;
+
+}
+.personagem-selecionado{
+    text-align: center;
+    max-height: 530px;
+    gap: 10px;
+
+}
+.personagem-selecionado .personagem-grande{
+    width: 430px;
+    height: 430px;
+    border-radius: 10px;
+}
+.personagem.selecionados .nome-personagem{
+    border-bottom: 2px solid #fff;
+    letter-spacing: 2px;
+}
+.personagem-selecionados .descricao-personagem{
+    font-size: 16px;
+    line-height:22px;
+}

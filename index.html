@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editar Perfil</title>
+    <title>Squid-Game</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,12 +12,13 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <header class="cabecalho"><img src="./src/imagens/Squid-Game-Logo-PNG.png"></header>
+  <header class="cabecalho"><img class="logo" src="./src/imagens/Squid-Game-Logo.png"></header>
+  <body>
   <main class="selecao-de-personagens">
-    <section class="personagens"></section>
+    <section class="personagens">
     <h1 class="titulo">Selecione um personagem</h1>
     <ul class="lista-de-personagens">
-      <li class="personagem" id="gi-hun">
+      <li class="personagem selecionado" id="gi-hun">
         <img src=".\src\imagens\1.png" alt="Seong-Gi-Hun" />
       </li>
       <li class="personagem" id="sang-woo">
@@ -41,17 +42,19 @@
       <li class="personagem" id="mi-nyeo">
         <img src=".\src\imagens\7.png" alt="Han Mi-nyeo" />
       </li>
-  
+    </section>
     </ul>
-    <section class="selecionados">
-      <img
-        class="personagem-grande"
-        src="./src/imagens/1.card.png"
-        alt="Personagem selecionado"
+    <section class="personagem-selecionado">
+      <img class="personagem-grande"
+           src="./src/imagens/1.card.png"
+           alt="Personagem selecionado"
       />
       <div class="Informacoes-personagem"></div>
       <h2 class="nome-personagem" id="nome-personagem">Seong-Gi-Hun</h2>
+      <p class="descricao-personagem" id="descricao-personagem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
     </section>
   </main>
-  <body></body>
+
+  </body>
 </html>
