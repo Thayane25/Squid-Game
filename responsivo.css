@@ -22,6 +22,7 @@
     .personagem-selecionado .personagem-grande{
         width: 350px;
         height: 350px;
+        margin-top: 20px;
     }
     .personagem-selecionado .descricao-personagem{
         width: 80%;
@@ -35,7 +36,7 @@
     }
     .selecao-de-personagens{
         flex-direction: column-reverse;
-        max-width: 400px;
+        max-width: 360px;
         margin: 0 auto ;   
     }
     .selecao-de-personagens .personagens{
@@ -53,6 +54,7 @@
     .personagem-selecionado .personagem-grande{
         width: 300px;
         height: 300px;
+        margin-top: 15px;
     }
     .personagem-selecionado .descricao-personagem{
         width: 80%;

@@ -57,7 +57,7 @@ body::before{
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom:1px solid #fff ;
+    border-bottom:1px solid #1BB899 ;
     width: 100%;
     text-align: center;
 }
@@ -84,9 +84,9 @@ body::before{
     border-radius: 10px;
 }
 .personagem-selecionado .nome-personagem{
-    border-bottom: 1px solid #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
+ 
 }
 .personagem-selecionado .descricao-personagem{
     font-size: 15px;
