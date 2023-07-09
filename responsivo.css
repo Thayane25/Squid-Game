@@ -21,10 +21,11 @@
     }
     .personagem-selecionado{
         margin-top: 20px;
+        
     }
     .personagem-selecionado .personagem-grande{
-        width: 350px;
-        height: 350px;
+        width: 320px;
+        height: 320px;
         margin-top: 20px;
     }
     .personagem-selecionado .descricao-personagem{
