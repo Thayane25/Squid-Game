@@ -19,6 +19,9 @@
     .selecao-de-personagens .personagem img{
         width:150px;
     }
+    .personagem-selecionado{
+        margin-top: 20px;
+    }
     .personagem-selecionado .personagem-grande{
         width: 350px;
         height: 350px;
@@ -28,6 +31,7 @@
         width: 80%;
         font-size: 20px;
         margin: 0px auto;
+        margin-top: 10px;
     }
     }
 @media (max-width: 700px){
@@ -51,14 +55,19 @@
     .selecao-de-personagens .personagem img{
         width:80px;
     }
+    .personagem-selecionado{
+        margin-top: 20px;
+        height: 480px;
+    }
     .personagem-selecionado .personagem-grande{
         width: 300px;
         height: 300px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     .personagem-selecionado .descricao-personagem{
         width: 80%;
         font-size: 15px;
         margin: 0px auto;
+        margin-top: 10px;
     }
     }
