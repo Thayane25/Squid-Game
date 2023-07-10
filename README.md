@@ -9,7 +9,7 @@ Projeto desenvolvido baseado na semana Desenvolvedor Contratado do canal DEVEMDO
 <br>
 
 <p align="center">
-  <img alt="Projeto Squid-Game" src="./src/imagens/cover.pn" width="100%">
+  <img alt="Projeto Squid-Game" src="./src/imagens/preview.png" width="100%">
 </p>
 
 ##  Tecnologias
