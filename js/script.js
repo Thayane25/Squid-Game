@@ -3,7 +3,7 @@ personagens.forEach((personagem) => {
     personagem.addEventListener('mouseenter',() => {
 
         if(window.innerWidth < 450) {
-            window.scrollTo({ top: 0, behavior:'smooth'})
+            window.scrollTo({ top: 0, behavior:'smooth'});
         }
 
         const personagemSelecionado = document.querySelector('.selecionado');
